@@ -1,0 +1,8 @@
+/* src/index.css */
+
+/* Import the Tailwind base styles */
+@tailwind base;
+/* Import the Tailwind component styles */
+@tailwind components;
+/* Import the Tailwind utility styles */
+@tailwind utilities;
