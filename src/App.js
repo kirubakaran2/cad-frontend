@@ -44,7 +44,7 @@ const App = () => {
   const [previewAsset, setPreviewAsset] = useState(null);
   const [isModelLoaded, setIsModelLoaded] = useState(false);
 
-  const Baseurl = "http://localhost:5000";
+  const Baseurl = "https://cad-backend-ecy3.onrender.com";
 
   // Fetch assets from the backend
   useEffect(() => {
