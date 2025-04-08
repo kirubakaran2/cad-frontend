@@ -51,7 +51,7 @@ const App = () => {
   const [previewAsset, setPreviewAsset] = useState(null);
   const [isModelLoaded, setIsModelLoaded] = useState(false);
 
-  const Baseurl = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const Baseurl = process.env.REACT_APP_API_URL || "https://cad-backend-ecy3.onrender.com";
 
   useEffect(() => {
     if (token) {
